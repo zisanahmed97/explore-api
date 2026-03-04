@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>comment</title>
+    <style>
+        #comment-container{
+            max-width: 1200px;
+            margin: 20px auto;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 20px;
+            
+        }
+
+        .comment-card{
+            border: 1px solid red;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 1px 1px rgb(149, 0, 0);
+            
+           
+        }
+        .comment-card p{
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="commentList()">click comment</button>
+    <section id="comment-container">
+       
+
+    </section>
+    
+
+    <script src="./comment.js"></script>
+</body>
+</html>
