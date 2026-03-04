@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        #todo-container{
+            max-width: 1200px;
+            margin: 20px auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+            row-gap: 10px;
+        }
+
+        .todo-card{
+            border: 1px solid black;
+            border-radius: 10px;
+            box-shadow: 1px 1px 1px 1px gray;
+            padding: 20px;
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <button onclick="todoList()">click todos</button>
+
+    <section id="todo-container">
+        
+    </section>
+    
+
+
+    <script src="./todos.js"></script>
+</body>
+</html>
