@@ -14,6 +14,7 @@ const displayPost2 = (posts) =>{
 
     //1.get the container
     const postContainer = document.getElementById('post-container');
+    postContainer.innerHTML="";
     // console.log(postContainer);
 
   posts.forEach((post)=>{
