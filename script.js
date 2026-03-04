@@ -16,7 +16,16 @@ const loadPost =() =>{
 }
 
 const displayPost =(posts)=>{
-   posts.forEach((post)=>{
+
+// for(let i =0 ; i<posts.length ; i++){
+//     console.log(posts[i]);
+// }
+
+// for(let post of posts){
+//     console.log(post);
+// }
+
+posts.forEach((post)=>{
     console.log(post);
    })
 }
